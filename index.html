@@ -14,7 +14,7 @@
         grid-template-columns: 20em 1fr 15em;
         margin: 0 auto;
     }
-    header {grid-area: a; background: rgb(177, 170, 255); padding: 1em; box-shadow: 5px 5px 1px rgb(51, 51, 145);}
+    header {grid-area: a; background: rgb(175, 108, 108); padding: 1em; box-shadow: 5px 5px 1px rgb(122, 88, 88);}
     aside {grid-area: b; background: rgb(226, 226, 226); padding: 1em; margin: 1em;}
     article {grid-area: c; background: rgb(210, 255, 240); padding: 1em; margin: 1em;}
     section {grid-area: d; background: rgb(226, 226, 226); padding: 1em; margin: 1em;}
@@ -23,19 +23,18 @@
 </style>
 <body>
 <div class="main">
-    <header><h1 style="color: white;"><img src="s3.png" alt="ロゴ " width="100em" style="float: right; margin-top: -0.75em;">前期通信制大学</h1></header>
-    <article><p><em>前期通信制大学にようこそ．</em>当学では前期通期でのオンライン授業を行っています．</p></article>
-    <section><div style="text-align: center;"><img src="data:image/png;base64,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" alt="棒人間の画像" width="50%"></div>
-        <p style="text-align: center;"><b>KN ST</b></p>
-        <p>都内の大学に通う(？)大学生．現在教習所に通っている．将来はNDロードスターが欲しい．もちろんマニュアル．写真は某教授リスペクトです(w</p>
+    <header><h1 style="color: white;"><img src="Images/Minecraft_logo.jpg" alt="ロゴ " width="100em" style="float: right; margin-top: -0.75em;">Our City Project</h1></header>
+    <article><p>Our City Projectのホームページです．<br>Mapから現在の街の様子，地域紹介から各地域の特徴，開発計画から今後のまちづくりの方針を見ることができます．多分．</p></article>
+    <section><div style="text-align: center;"><img src="Images/Votre_Damn.png" alt="棒人間の画像" width="100%"></div>
+        <p style="text-align: center;"><b>Our City Projectとは</b></p>
+        <p>統合版Minecraftのまちづくりプロジェクトです．現在4人のメンバーで活動しています．</p>
     </section>
     <aside>
         <ol>
-            <li style="padding: 0.5em 0;"><u>前通大について</u></li>
-            <li style="padding: 0.5em 0;"><u>おしらせ</u></li>
-            <li style="padding: 0.5em 0;"><u>在学生向けページ</u></li>
-            <li style="padding: 0.5em 0;"><u>受験生向けページ</u></li>
-            <li style="padding: 0.5em 0;"><u>外部の方向け(公官庁・企業・提携先研究機関)ページ</u></li>
+            <li style="padding: 0.5em 0;"><a href="latest/index.html"><li>Map</li></li>
+            <li style="padding: 0.5em 0;"><u>地域紹介</u></li>
+            <li style="padding: 0.5em 0;"><u>開発計画</u></li>
+            <li style="padding: 0.5em 0;"><u>About Us</u></li>
         </ol>
     </aside>
     <footer><address>Alrights reserved by me</address></footer>
