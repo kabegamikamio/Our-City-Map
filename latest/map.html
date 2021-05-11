@@ -1,9 +1,20 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8">
     <title>Our City Project</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="generator" content="Minecraft-Overviewer 0.16.12 (86963c5)" />
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+
+    <script type="text/javascript" src="overviewerConfig.js"></script>
+    <script type="text/javascript" src="overviewer.js"></script>
+    <script type="text/javascript" src="baseMarkers.js"></script>
+
+    <link rel="stylesheet" href="leaflet.css" />
+    <script src="leaflet.js"></script>
+    <link rel="stylesheet" href="overviewer.css" type="text/css" />
 </head>
+
 <style>
     .main {
         display: grid;
@@ -21,9 +32,10 @@
     footer {grid-area: e; background: rgb(255, 219, 219); padding: 1em;}
     address {text-align: right;}
 </style>
-<body>
+
+<body onload="overviewer.util.initialize()">
 <div class="main">
-    <header><h1 style="color: white;"><img src="Images/Minecraft_logo.jpg" alt="ロゴ " width="100em" style="float: right; margin-top: -0.75em;">Our City Project</h1></header>
+    <header><a href="../index.html"><h1 style="color: white;"><img src="../Images/Minecraft_logo.jpg" alt="ロゴ " width="100em" style="float: right; margin-top: -0.75em;">Our City Project</h1></a></header>
     <article>
         <h1>Map</h1>
         <p>
@@ -31,14 +43,17 @@
         </p>
         <h2>現在最新の地図</h2>
         <p>
-            <a href="latest/index.html"><li>最新版map</li></a>
+            <a href="index.html"><li>最新版map</li></a>
         </p>
-        
+
         <noscript style="color:white; background-color:black">
         If you can see this message, there is likely a problem loading the Overviewer JavaScript components.
         Check the JavaScript console for error messages.
         </noscript>
-        <div id="mcmap"></div>
+        <div style="height:75%;">
+        <div id="mcmap" ">
+        </div>
+    </div>
         
         <h2>アーカイブ</h2>
         <p>
@@ -48,13 +63,13 @@
             </ul>
         </p>
     </article>
-    <section><div style="text-align: center;"><img src="Images/Votre_Damn.png" alt="棒人間の画像" width="100%"></div>
+    <section><div style="text-align: center;"><img src="../Images/Votre_Damn.png" alt="Votre Damn" width="100%"></div>
         <p style="text-align: center;"><b>Our City Projectとは</b></p>
         <p>統合版Minecraftのまちづくりプロジェクトです．現在4人のメンバーで活動しています．</p>
     </section>
     <aside>
         <ol>
-            <li style="padding: 0.5em 0;"><a href="latest/index.html">Map</a></li>
+            <li style="padding: 0.5em 0;"><a href="map.html">Map</a></li>
             <li style="padding: 0.5em 0;"><u>地域紹介</u></li>
             <li style="padding: 0.5em 0;"><u>開発計画</u></li>
             <li style="padding: 0.5em 0;"><u>About Us</u></li>
