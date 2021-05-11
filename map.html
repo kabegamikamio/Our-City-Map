@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Our City Project</title>
+</head>
+<style>
+    .main {
+        display: grid;
+        width: 90vw;
+        height: 90vh;
+        grid-template-areas: "a a a" "b c d" "e e e";
+        grid-template-rows: 8em 1fr 3em;
+        grid-template-columns: 20em 1fr 15em;
+        margin: 0 auto;
+    }
+    header {grid-area: a; background: rgb(175, 108, 108); padding: 1em; box-shadow: 5px 5px 1px rgb(122, 88, 88);}
+    aside {grid-area: b; background: rgb(226, 226, 226); padding: 1em; margin: 1em;}
+    article {grid-area: c; background: rgb(210, 255, 240); padding: 1em; margin: 1em;}
+    section {grid-area: d; background: rgb(226, 226, 226); padding: 1em; margin: 1em;}
+    footer {grid-area: e; background: rgb(255, 219, 219); padding: 1em;}
+    address {text-align: right;}
+</style>
+<body>
+<div class="main">
+    <header><h1 style="color: white;"><img src="Images/Minecraft_logo.jpg" alt="ロゴ " width="100em" style="float: right; margin-top: -0.75em;">Our City Project</h1></header>
+    <article>
+      <t1>Map</t1>
+      <p>
+        Our Cityの全貌を表した地図をアーカイブ形式で掲載しています．
+      </p>
+    </article>
+    <section><div style="text-align: center;"><img src="Images/Votre_Damn.png" alt="棒人間の画像" width="100%"></div>
+        <p style="text-align: center;"><b>Our City Projectとは</b></p>
+        <p>統合版Minecraftのまちづくりプロジェクトです．現在4人のメンバーで活動しています．</p>
+    </section>
+    <aside>
+        <ol>
+            <li style="padding: 0.5em 0;"><a href="latest/index.html"><li>Map</li></li>
+            <li style="padding: 0.5em 0;"><u>地域紹介</u></li>
+            <li style="padding: 0.5em 0;"><u>開発計画</u></li>
+            <li style="padding: 0.5em 0;"><u>About Us</u></li>
+        </ol>
+    </aside>
+    <footer><address>Alrights reserved by me</address></footer>
+</div>
+</body>
+</html>
