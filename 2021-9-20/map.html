@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Our City Project</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="generator" content="Minecraft-Overviewer 0.16.12 (86963c5)" />
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+
+    <script type="text/javascript" src="overviewerConfig.js"></script>
+    <script type="text/javascript" src="overviewer.js"></script>
+    <script type="text/javascript" src="baseMarkers.js"></script>
+
+    <link rel="stylesheet" href="leaflet.css" />
+    <script src="leaflet.js"></script>
+    <link rel="stylesheet" href="overviewer.css" type="text/css" />
+</head>
+
+<style>
+    .main {
+        display: grid;
+        width: 90vw;
+        height: 90vh;
+        grid-template-areas: "a a a" "b c d" "e e e";
+        grid-template-rows: 8em 1fr 3em;
+        grid-template-columns: 20em 1fr 15em;
+        margin: 0 auto;
+    }
+    header {grid-area: a; background: rgb(175, 108, 108); padding: 1em; box-shadow: 5px 5px 1px rgb(122, 88, 88);}
+    aside {grid-area: b; background: rgb(226, 226, 226); padding: 1em; margin: 1em;}
+    article {grid-area: c; background: rgb(210, 255, 240); padding: 1em; margin: 1em;}
+    section {grid-area: d; background: rgb(226, 226, 226); padding: 1em; margin: 1em;}
+    footer {grid-area: e; background: rgb(255, 219, 219); padding: 1em;}
+    address {text-align: right;}
+</style>
+
+<body onload="overviewer.util.initialize()">
+<div class="main">
+    <header><a href="../index.html"><h1 style="color: white;"><img src="../Images/Minecraft_logo.jpg" alt="ロゴ " width="100em" style="float: right; margin-top: -0.75em;">Our City Project</h1></a></header>
+    <article>
+        <h1>Map</h1>
+        <p>
+            Our Cityの全貌を表した地図をアーカイブ形式で掲載しています．
+        </p>
+        <h2>現在最新の地図</h2>
+        <p>
+            <a href="index.html"><li>最新版map</li></a>
+        </p>
+
+        <noscript style="color:white; background-color:black">
+        If you can see this message, there is likely a problem loading the Overviewer JavaScript components.
+        Check the JavaScript console for error messages.
+        </noscript>
+        <div style="height:75%;">
+        <div id="mcmap" ">
+        </div>
+    </div>
+        
+        <h2>アーカイブ</h2>
+        <p>
+            <ul>
+                <li><a href="2021-5-7/index.html">2021/5/7</a></li>
+                <li><a href="2021-5-5/index.html">2021/5/5</a></li>
+            </ul>
+        </p>
+    </article>
+    <section><div style="text-align: center;"><img src="../Images/Votre_Damn.png" alt="Votre Damn" width="100%"></div>
+        <p style="text-align: center;"><b>Our City Projectとは</b></p>
+        <p>統合版Minecraftのまちづくりプロジェクトです．現在4人のメンバーで活動しています．</p>
+    </section>
+    <aside>
+        <ol>
+            <li style="padding: 0.5em 0;"><a href="map.html">Map</a></li>
+            <li style="padding: 0.5em 0;"><u>地域紹介</u></li>
+            <li style="padding: 0.5em 0;"><u>開発計画</u></li>
+            <li style="padding: 0.5em 0;"><u>About Us</u></li>
+        </ol>
+    </aside>
+    <footer><address>Alrights reserved by me</address></footer>
+</div>
+</body>
+</html>
