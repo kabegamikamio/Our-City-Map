@@ -1,0 +1,31 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "bm:lambo",
+      "materials": { "default": "vehicle" },
+      "textures": {
+        "default": "textures/entities/vehicles/lambo"
+      },
+      "geometry": {
+        "default": "geometry.bm.lambo"
+      },
+      "animations": {
+        "walk": "animation.lambo.drive",
+        "body_turn": "animation.steering_turn"
+	
+      },
+      "scripts": {
+        "animate": [
+          { "walk": "query.modified_move_speed" },
+		  "body_turn"
+        ]
+      },
+      "render_controllers": [ "controller.render.vehicle" ],
+      "spawn_egg": {
+        "texture": "lambo_egg",
+        "texture_index": 0
+      }
+    }
+  }
+}

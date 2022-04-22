@@ -1,0 +1,7 @@
+item.spawn_egg.entity.oe:rotator_0.name=0 - North
+item.spawn_egg.entity.oe:rotator_90.name=90 - East
+item.spawn_egg.entity.oe:rotator_180.name=180 - South
+item.spawn_egg.entity.oe:rotator_270.name=270 - West
+item.spawn_egg.entity.oe:remover.name=撤去 - Removal
+item.spawn_egg.entity.oe:up.name=+0.5 - Up
+item.spawn_egg.entity.oe:down.name=-0.5 - Down

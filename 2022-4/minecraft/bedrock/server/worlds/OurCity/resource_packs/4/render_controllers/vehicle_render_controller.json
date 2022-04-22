@@ -1,0 +1,28 @@
+/*
+
+	Hello, dear fellow reverse engineers :D
+
+	You can tear this addon apart 
+	and rip the parts off 
+	and make it your own, 
+	please just make sure 
+	you give me the proper credits.
+	Thank you.
+
+	- MyoHtet @bmheades
+
+*/
+
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.vehicle": {
+      "geometry": "Geometry.default",
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "Texture.default" ],
+	      "part_visibility": [
+        { "*": true }
+      ] 
+    }
+  }
+}

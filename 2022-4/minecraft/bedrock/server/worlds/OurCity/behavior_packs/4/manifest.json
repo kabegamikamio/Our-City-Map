@@ -1,0 +1,19 @@
+{
+	"format_version": 1,
+	"header": {
+		"description": "Lamborghini Bmero\nMade by MyoHtet\n@bmheades",
+		"name": "LAMBO BP BY BM",
+		"uuid": "533f358a-1a2b-4f17-8b37-07fa3c43ca2d",
+		"version": [1, 0, 0]
+	},
+	"modules": [{
+		"description": "Lamborghini Bmero\nMade by MyoHtet\n@bmheades",
+		"type": "data",
+		"uuid": "c5090ff7-a54c-4078-b1cb-3be14b9c9861",
+		"version": [1, 0, 0]
+	}],
+	"dependencies": [{
+		"uuid": "3c0bb79a-3883-4cab-a9ea-f356c573605b",
+		"version": [1, 0, 0]
+	}]
+}

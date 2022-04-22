@@ -1,0 +1,38 @@
+{
+	"format_version": "1.8.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "jdml:nsx",
+			"materials": {
+				"default": "enderman"
+			},
+			"textures": {
+				"black": "textures/entity/jdml/nsx/black",
+				"silver": "textures/entity/jdml/nsx/silver",
+				"red": "textures/entity/jdml/nsx/red",
+				"white": "textures/entity/jdml/nsx/white",
+				"yellow": "textures/entity/jdml/nsx/spoon"
+				
+			},
+			"geometry": {
+				"default": "geometry.jdmnsx"
+			},
+			"render_controllers": [
+				"controller.render.jdm2"
+			],
+			"animations": {
+				"drive": "animation.jdml.drive",
+				"turning": "animation.jdml.turning"
+			},
+			"spawn_egg": {
+				"texture": "honda",
+				"texture_index": 0
+			},
+			"animation_controllers": [
+				{
+					"general": "controller.animation.jdml.general"
+				}
+			]
+		}
+	}
+}

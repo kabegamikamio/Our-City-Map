@@ -1,0 +1,25 @@
+{
+
+	"entity_sounds": {
+		"entities": {
+			"bm:lambo": {
+				"volume": 1.0,
+				"pitch": [0.8, 1.2],
+				"events": {
+
+					"hurt": {
+						"sound": "mob.vehicle.hit",
+						"volume": 1,
+						"pitch": [0.6, 0.7]
+					},
+					"step": {
+						"sound": "mob.lambo.drive",
+						"volume": 1.3,
+						"pitch": [1.0]
+					}
+				}
+			}
+		}
+	},
+	"interactive_sounds": {}
+}

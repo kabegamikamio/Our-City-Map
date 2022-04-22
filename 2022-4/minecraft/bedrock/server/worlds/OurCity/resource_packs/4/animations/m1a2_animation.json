@@ -1,0 +1,211 @@
+{
+	"format_version": "1.12.0",
+	"animations": {
+		"animation.m1a2.fire": {
+			"animation_length": 3.664,
+			"override_previous_animation": true,
+			"bones": {
+				"super": {
+					"rotation": {
+						"0.0": [-4, 0, 0],
+						"0.8": [0, 0, 0]
+					}
+				},
+				"muzzlefire": {
+					"scale": {
+						"0.0": [0, 0, 0],
+						"0.0333": [10, 10, 10],
+						"0.0833": [0, 0, 0],
+						"1.5": [0, 0, 0]
+					}
+				},
+				"gun": {
+					"rotation": {
+						"0.0": ["4 + (query.target_x_rotation * 0.2)", 0, 0],
+						"0.8": ["(query.target_x_rotation * 0.2)", 0, 0]
+					}
+				},
+				"barrel": {
+					"position": {
+						"0.0": [0, 0, 1],
+						"0.5667": [0, 0, 0]
+					}
+				},
+				"crosshair": {
+					"rotation": {
+						"0.0": [4, 0, 0],
+						"0.5667": [0, 0, 0]
+					}
+				}
+			},
+			"particle_effects": {
+				"0.8667": {
+					"effect": "m_fire",
+					"locator": "locator_muzzle_smoke"
+				},
+				"0.0": {
+					"effect": "m_flash",
+					"locator": "muzzle_flash"
+				}
+			}
+		},
+		"animation.m1a2.machinegun_fire": {
+			"animation_length": 3.664,
+			"override_previous_animation": true,
+			"particle_effects": {
+				"0.0": {
+					"effect": "m_bullet",
+					"locator": "muzzle_machinegun"
+				}
+			}
+		},
+		"animation.m1a2.death": {
+			"animation_length": 8.4,
+			"override_previous_animation": true,
+			"bones": {
+				"over_power": {
+					"rotation": [0, 0, "Math.min(Math.sqrt(Math.max(0, query.anim_time * 20 - 0.5) / 20 * 1.6), 1) * -90"],
+					"position": {
+						"0.36": [0, 0, 0],
+						"3.64": [27, 0, 0]
+					}
+				},
+				"blowout1": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.52": {
+							"pre": [0, 0, 22.5],
+							"post": [0, 0, 22.5],
+							"lerp_mode": "catmullrom"
+						}
+					},
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.52": [39.66, 404.15, 0],
+						"2.4": [27.49, 365.12, 0],
+						"3.64": [16, 28, 0]
+					}
+				},
+				"blowout2": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.52": [0, 0, -32.5]
+					},
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.92": {
+							"pre": [-52, 387, 0],
+							"post": [-52, 387, 0],
+							"lerp_mode": "catmullrom"
+						}
+					}
+				}
+			},
+			"particle_effects": {
+				"0.0": {
+					"effect": "m_blowout",
+					"locator": "blow_out2"
+				}
+			}
+		},
+		// death particles part 2 and 3
+		
+		"animation.m1a2.death2": {
+			"animation_length": 8.4,
+			"override_previous_animation": true,
+			"particle_effects": {
+				"0.0": {
+					"effect": "m_blowout",
+					"locator": "blow_out1"
+				}
+			}
+		},
+		"animation.m1a2.death3": {
+			"animation_length": 8.4,
+			"override_previous_animation": true,
+			"particle_effects": {
+				"0.0": {
+					"effect": "explode",
+					"locator": "bodye"
+				}
+			}
+		},
+		//
+		
+		"animation.m1a2.normal": {
+			"loop": true,
+			"animation_length": 1,
+			"bones": {
+				"ulra_super": {
+					"rotation": [0, 0, 0]
+				},
+				"muzzlefire": {
+					"position": [0, 0, 4],
+					"scale": [0, 0, 0]
+				}
+			}
+		},
+		"animation.m1a2.hit": {
+			"loop": false,
+			"animation_length": 0.12,
+			"bones": {
+				"over_power": {
+					"rotation": {
+						"0.0": [0, 0, -1],
+						"0.1167": [0, 0, 1]
+					}
+				}
+			}
+		},
+		"animation.m1a2.climbing": {
+			"loop": true,
+			"bones": {
+				"ulra_super": {
+					"rotation": ["query.vertical_speed * -3", 0, 0]
+				},
+				"gun": {
+					"rotation": ["query.vertical_speed * 3 + (query.target_x_rotation * 0.2)", 0, 0]
+				},
+				"crosshair": {
+					"rotation": ["query.vertical_speed * 3", 0, 0]
+				},
+				"muzzlefire": {
+					"scale": [0, 0, 0]
+				},
+				"turret": {
+					"rotation": [0, "query.yaw_speed / 3 + (query.target_y_rotation)", 0]
+				},
+				"playercabin": {
+					"rotation": ["(query.target_x_rotation * 0.5)", "query.target_y_rotation * 1", 0]
+				},
+				"wheel1": {
+					"rotation": ["query.modified_distance_moved * 50", 0, 0]
+				},
+				"wheel2": {
+					"rotation": ["query.modified_distance_moved * 50", 0, 0]
+				},
+				"wheel3": {
+					"rotation": ["query.modified_distance_moved * 50", 0, 0]
+				},
+				"wheel4": {
+					"rotation": ["query.modified_distance_moved * 50", 0, 0]
+				},
+				"wheel5": {
+					"rotation": ["query.modified_distance_moved * 50", 0, 0]
+				},
+				"wheel6": {
+					"rotation": ["query.modified_distance_moved * 50", 0, 0]
+				},
+				"wheel7": {
+					"rotation": ["query.modified_distance_moved * 50", 0, 0]
+				},
+				"wheel8": {
+					"rotation": ["query.modified_distance_moved * 50", 0, 0]
+				},
+				"wheel9": {
+					"rotation": ["query.modified_distance_moved * 50", 0, 0]
+				}
+			}
+		}
+	}
+}

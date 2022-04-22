@@ -1,0 +1,7 @@
+tag @e[c=1,tag=walker_set] remove light_off
+tag @e[c=1,tag=walker_set] remove light_stop
+tag @e[c=1,tag=walker_set] remove light_warning
+tag @e[c=1,tag=walker_set] remove light_caution
+tag @e[c=1,tag=walker_set] remove light_deceleration
+tag @e[c=1,tag=walker_set] add light_go
+tag @e[c=1,tag=walker_set] remove light_high

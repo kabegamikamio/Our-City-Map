@@ -1,0 +1,107 @@
+/*
+
+	Hello, dear fellow reverse engineers :D
+
+	You can tear this addon apart 
+	and rip the parts off 
+	and make it your own, 
+	please just make sure 
+	you give me the proper credits.
+	Thank you.
+
+	- MyoHtet @bmheades
+
+*/
+
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "bm:m1a2",
+      "materials": { 
+	  
+	  "default": "vehicle",
+      "blaze_head": "blaze_head",
+	  "glow": "glow",
+	  "transparent": "transparent"
+
+
+	  },
+	  "particle_effects": {
+				"m_fire": "bm:muzzle_smoke",
+				"t_dust": "bm:track_dust",
+				"m_flash": "bm:muzzle_flash",
+				"m_bullet": "bm:bullet",
+				"m_blowout": "bm:bullet_reflect",
+				"explode": "bm:tankexplode"
+	   },
+	   "sound_effects": {
+				"t_drive": "tank.drive",
+				"t_start": "tank.start",
+				"t_midd": "tank.mid",
+				"t_stopp": "tank.stop",
+				"machinegunshoot": "tank.machinegunshoot",
+				"maingunshoot": "tank.maingunshoot"
+	   },
+      "textures": {
+        "default": "textures/entities/vehicles/m1a2sP",
+		"chainmove": "textures/entities/vehicles/m1a2sPc"
+      },
+      "geometry": {
+        "default": "geometry.bm.m1a2"
+      },
+      "animations": {
+		  "normal": "animation.m1a2.normal",
+		  "firing": "animation.m1a2.fire",
+		  "machinegun_firing": "animation.m1a2.machinegun_fire",
+		  "climbing": "animation.m1a2.climbing",
+		  "falling": "animation.m1a2.falling",
+		  "turret": "animation.m1a2.turret",
+		  "fire": "controller.animation.m1a2_fire",
+		  "hit": "animation.m1a2.hit",
+		  "death": "animation.m1a2.death",
+		  "death2": "animation.m1a2.death2",
+		  "death3": "animation.m1a2.death3",
+		  "machinegun_fire": "controller.animation.m1a2.machinegun_fire",
+		  "track_particle_right": "animation.bm.m1a2.track_particle_right",
+		  "track_particle_left": "animation.bm.m1a2.track_particle_left"
+		//  "driving_sound": "animation.bm.m1a2.drive_sound",
+		//  "sound_controller": "controller.animation.m1a2.sound_controller"
+		//  "track_controller": "controller.animation.m1a2_track_dust"
+	
+      },
+      "scripts": {
+        "pre_animation": [
+				
+					"variable.muzzlefire = query.variant;"
+			
+				],
+        "animate": [
+		//	{ "track_particle_right": "query.modified_move_speed" },
+		//	{ "track_particle_left": "query.modified_move_speed" },
+		//	"track_controller",
+			{ "track_particle_right": "query.is_moving" },
+			{ "track_particle_left": "query.is_moving" },
+			{ "hit": "query.hurt_time" },
+			{ "death": "!query.is_alive" },
+			{ "death2": "!query.is_alive" },
+			{ "death3": "!query.is_alive" },
+		//	{ "driving_sound": "query.is_moving" },
+	    	"climbing",
+	    	"fire",
+			"machinegun_fire"
+		//	"sound_controller"
+        ]
+      },
+      "render_controllers": [
+        {
+					"controller.render.m1a2.first_person": true
+				}
+       ],
+      "spawn_egg": {
+        "texture": "m1a2_egg",
+        "texture_index": 0
+      }
+    }
+  }
+}

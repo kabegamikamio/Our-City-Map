@@ -1,0 +1,24 @@
+{
+
+  "format_version": "1.10",
+
+  "minecraft:item": {
+
+    "description": {
+
+      "identifier": "pmc:kotex",
+
+      "category": "Items"
+
+    },
+
+    "components": {
+      "minecraft:icon": "pm_kotex",
+
+      "minecraft:render_offsets": "miscellaneous"
+
+    }
+
+  }
+
+}

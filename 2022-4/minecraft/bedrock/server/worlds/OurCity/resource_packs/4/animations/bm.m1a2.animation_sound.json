@@ -1,0 +1,30 @@
+/*
+
+	Hello, dear fellow reverse engineers :D
+
+	You can tear this addon apart 
+	and rip the parts off 
+	and make it your own, 
+	please just make sure 
+	you give me the proper credits.
+	Thank you.
+
+	- MyoHtet @bmheades
+
+*/
+
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.bm.m1a2.drive_sound": {
+			"animation_length": 3.88,
+			"loop": true,
+			"sound_effects": {
+			   "0.00":
+			   {
+			     "effect": "t_drive"
+			   }
+			}
+		}
+	}
+}

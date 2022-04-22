@@ -1,0 +1,20 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "ap:letter_y",
+      "materials": { "default": "entity" },
+      "textures": {
+        "default": "textures/entity/white"
+      },
+      "geometry": {
+        "default": "geometry.letter_y"
+      },
+      "render_controllers": [ "controller.render.letter_y" ],
+      "spawn_egg": {
+        "texture": "letter_y",
+        "texture_index": 0
+      }
+    }
+  }
+}

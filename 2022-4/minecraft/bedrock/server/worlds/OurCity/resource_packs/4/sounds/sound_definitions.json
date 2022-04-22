@@ -1,0 +1,83 @@
+/*
+
+	Hello, dear fellow reverse engineers :D
+
+	You can tear this addon apart 
+	and rip the parts off 
+	and make it your own, 
+	please just make sure 
+	you give me the proper credits.
+	Thank you.
+
+	- MyoHtet @bmheades
+
+*/
+
+{
+  "format_version": "1.14.0",
+  "sound_definitions": {
+  
+	"vehicle.explode": {
+    "category": "block",
+	 "max_distance": 12.0,
+    "sounds": [
+      "sounds/vehicles/explode"
+    ]
+  },
+  "tank.drive": {
+      "category": "hostile",
+      "max_distance": 12.0,
+    "sounds": [
+      "sounds/vehicles/tanksound"
+    ]
+  },
+  "tank.hit": {
+      "category": "hostile",
+      "max_distance": 12.0,
+    "sounds": [
+      "sounds/vehicles/hit"
+    ]
+  },
+  "tank.start": {
+      "category": "neutral",
+      "max_distance": 12.0,
+    "sounds": [
+      "sounds/vehicles/tankstart"
+    ]
+  },
+  "tank.mid": {
+      "category": "neutral",
+      "max_distance": 12.0,
+    "sounds": [
+      "sounds/vehicles/tankmid"
+    ]
+  },
+  "tank.stop": {
+    "category": "neutral",
+      "max_distance": 12.0,
+    "sounds": [
+      "sounds/vehicles/tankstop"
+    ]
+  },
+  "tank.machinegunshoot": {
+    "category": "neutral",
+      "max_distance": 12.0,
+    "sounds": [
+			{
+               "name" : "sounds/vehicles/machinegunshootfast",
+               "volume" : 0.2
+            }
+    ]
+  },
+  "tank.maingunshoot": {
+    "category": "neutral",
+      "max_distance": 20.0,
+    "sounds": [
+			{
+               "name" : "sounds/vehicles/maingunshoot",
+               "volume" : 1
+            }
+    ]
+  }
+  }
+}

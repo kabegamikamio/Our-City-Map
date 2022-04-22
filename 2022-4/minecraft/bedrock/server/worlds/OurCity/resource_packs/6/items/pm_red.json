@@ -1,0 +1,24 @@
+{
+
+  "format_version": "1.10",
+
+  "minecraft:item": {
+
+    "description": {
+
+      "identifier": "pmc:red",
+
+      "category": "Items"
+
+    },
+
+    "components": {
+      "minecraft:icon": "pm_red",
+
+      "minecraft:render_offsets": "miscellaneous"
+
+    }
+
+  }
+
+}

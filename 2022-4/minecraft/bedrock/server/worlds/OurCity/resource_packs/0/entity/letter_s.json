@@ -1,0 +1,20 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "ap:letter_s",
+      "materials": { "default": "entity" },
+      "textures": {
+        "default": "textures/entity/white"
+      },
+      "geometry": {
+        "default": "geometry.letter_s"
+      },
+      "render_controllers": [ "controller.render.letter_s" ],
+      "spawn_egg": {
+        "texture": "letter_s",
+        "texture_index": 0
+      }
+    }
+  }
+}

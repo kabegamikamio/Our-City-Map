@@ -1,0 +1,24 @@
+{
+
+  "format_version": "1.10",
+
+  "minecraft:item": {
+
+    "description": {
+
+      "identifier": "pmc:white",
+
+      "category": "Items"
+
+    },
+
+    "components": {
+      "minecraft:icon": "pm_white",
+
+      "minecraft:render_offsets": "miscellaneous"
+
+    }
+
+  }
+
+}

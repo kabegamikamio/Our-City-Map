@@ -1,0 +1,60 @@
+/*
+
+	Hello, dear fellow reverse engineers :D
+
+	You can tear this addon apart 
+	and rip the parts off 
+	and make it your own, 
+	please just make sure 
+	you give me the proper credits.
+	Thank you.
+
+	- MyoHtet @bmheades
+
+*/
+
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.m1a2.first_person": {
+		"arrays": {
+        "textures": {
+          "Array.textures": [ "Texture.default", "Texture.chainmove"]
+        }/*,
+        "geometries": {
+          "Array.geos": [ "Geometry.default", "Geometry.mars" ]
+        } */
+      },
+      "geometry": "Geometry.default",
+      "materials": [ 
+	  
+	  
+	  { "*": "Material.default" },
+	  { "muzzlefire": "Material.default" },
+	  { "rearlight1": "Material.default" },
+	  { "hooksback": "Material.transparent" },
+	  { "crosshair": "Material.default" }
+	  
+	  
+	  ],
+      "textures": [ "Array.textures[query.skin_id]" ],
+	      "part_visibility": [
+        { "*":  "!query.has_rider || query.distance_from_camera > 2.2" },//"query.distance_from_camera > 2.5" },
+		{ "playercabin2": "query.distance_from_camera < 2.2" },
+		{ "crosshair": "query.distance_from_camera < 2.2" }
+      ],
+	  "is_hurt_color": {
+                "r": "1.0",
+                "g": "0.0",
+                "b": "0.0",
+                "a": "0.3"
+            },
+            "on_fire_color": {
+                "r": "0.0",
+                "g": "0.0",
+                "b": "0.0",
+                "a": "0.0"
+            }
+    }
+  }
+}

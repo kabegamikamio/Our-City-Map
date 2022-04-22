@@ -1,0 +1,31 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "bm:cybertruck",
+      "materials": { "default": "vehicle" },
+      "textures": {
+        "default": "textures/entities/vehicles/cybertruckl"
+      },
+      "geometry": {
+        "default": "geometry.bm.cybertruck"
+      },
+      "animations": {
+        "walk": "animation.cybertruck.drive",
+        "body_turn": "animation.steering_turn"
+	
+      },
+      "scripts": {
+        "animate": [
+          { "walk": "query.modified_move_speed" },
+		  "body_turn"
+        ]
+      },
+      "render_controllers": [ "controller.render.vehicle" ],
+      "spawn_egg": {
+        "texture": "cybertruck_egg",
+        "texture_index": 0
+      }
+    }
+  }
+}

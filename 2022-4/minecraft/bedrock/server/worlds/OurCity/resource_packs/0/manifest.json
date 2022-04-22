@@ -1,0 +1,18 @@
+{
+    "format_version": 1,
+    "header": {
+        "description": "Letters in Minecraft! Made by AngelPandaEarth.",
+        "name": "APG Letters [Resource]",
+        "uuid": "1a8acd94-e42d-4836-b429-b5f7ce1014ed",
+        "version": [1,0,0],
+        "min_engine_version": [1, 8, 0]
+    },
+    "modules": [
+        {
+            "description": "Letters in Minecraft! Made by AngelPandaEarth.",
+            "type": "resources",
+            "uuid": "87ca8f69-c904-454f-a7aa-49baab238cbe",
+            "version": [1, 0, 0]
+        }
+    ]
+}

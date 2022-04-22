@@ -1,0 +1,20 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "ap:letter_e_black",
+      "materials": { "default": "entity" },
+      "textures": {
+        "default": "textures/entity/black"
+      },
+      "geometry": {
+        "default": "geometry.letter_e"
+      },
+      "render_controllers": [ "controller.render.letter_e" ],
+      "spawn_egg": {
+        "texture": "letter_e_black",
+        "texture_index": 0
+      }
+    }
+  }
+}

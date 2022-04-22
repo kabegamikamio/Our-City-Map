@@ -1,0 +1,162 @@
+{
+  "resource_pack_name": "APG Letters [Resource]",
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "letter_a": {
+      "textures": "textures/items/letter_a"
+    },
+    "letter_b": {
+      "textures": "textures/items/letter_b"
+    },
+    "letter_c": {
+      "textures": "textures/items/letter_c"
+    },
+    "letter_d": {
+      "textures": "textures/items/letter_d"
+    },
+    "letter_e": {
+      "textures": "textures/items/letter_e"
+    },
+    "letter_f": {
+      "textures": "textures/items/letter_f"
+    },
+    "letter_g": {
+      "textures": "textures/items/letter_g"
+    },
+    "letter_h": {
+      "textures": "textures/items/letter_h"
+    },
+    "letter_i": {
+      "textures": "textures/items/letter_i"
+    },
+    "letter_j": {
+      "textures": "textures/items/letter_j"
+    },
+    "letter_k": {
+      "textures": "textures/items/letter_k"
+    },
+    "letter_l": {
+      "textures": "textures/items/letter_l"
+    },
+    "letter_m": {
+      "textures": "textures/items/letter_m"
+    },
+    "letter_n": {
+      "textures": "textures/items/letter_n"
+    },
+    "letter_o": {
+      "textures": "textures/items/letter_o"
+    },
+    "letter_p": {
+      "textures": "textures/items/letter_p"
+    },
+    "letter_q": {
+      "textures": "textures/items/letter_q"
+    },
+    "letter_r": {
+      "textures": "textures/items/letter_r"
+    },
+    "letter_s": {
+      "textures": "textures/items/letter_s"
+    },
+    "letter_t": {
+      "textures": "textures/items/letter_t"
+    },
+    "letter_u": {
+      "textures": "textures/items/letter_u"
+    },
+    "letter_v": {
+      "textures": "textures/items/letter_v"
+    },
+    "letter_w": {
+      "textures": "textures/items/letter_w"
+    },
+    "letter_x": {
+      "textures": "textures/items/letter_x"
+    },
+    "letter_y": {
+      "textures": "textures/items/letter_y"
+    },
+    "letter_z": {
+      "textures": "textures/items/letter_z"
+    },
+      "letter_a_black": {
+      "textures": "textures/items/letter_a_black"
+    },
+    "letter_b_black": {
+      "textures": "textures/items/letter_b_black"
+    },
+    "letter_c_black": {
+      "textures": "textures/items/letter_c_black"
+    },
+    "letter_d_black": {
+      "textures": "textures/items/letter_d_black"
+    },
+    "letter_e_black": {
+      "textures": "textures/items/letter_e_black"
+    },
+    "letter_f_black": {
+      "textures": "textures/items/letter_f_black"
+    },
+    "letter_g_black": {
+      "textures": "textures/items/letter_g_black"
+    },
+    "letter_h_black": {
+      "textures": "textures/items/letter_h_black"
+    },
+    "letter_i_black": {
+      "textures": "textures/items/letter_i_black"
+    },
+    "letter_j_black": {
+      "textures": "textures/items/letter_j_black"
+    },
+    "letter_k_black": {
+      "textures": "textures/items/letter_k_black"
+    },
+    "letter_l_black": {
+      "textures": "textures/items/letter_l_black"
+    },
+    "letter_m_black": {
+      "textures": "textures/items/letter_m_black"
+    },
+    "letter_n_black": {
+      "textures": "textures/items/letter_n_black"
+    },
+    "letter_o_black": {
+      "textures": "textures/items/letter_o_black"
+    },
+    "letter_p_black": {
+      "textures": "textures/items/letter_p_black"
+    },
+    "letter_q_black": {
+      "textures": "textures/items/letter_q_black"
+    },
+    "letter_r_black": {
+      "textures": "textures/items/letter_r_black"
+    },
+    "letter_s_black": {
+      "textures": "textures/items/letter_s_black"
+    },
+    "letter_t_black": {
+      "textures": "textures/items/letter_t_black"
+    },
+    "letter_u_black": {
+      "textures": "textures/items/letter_u_black"
+    },
+    "letter_v_black": {
+      "textures": "textures/items/letter_v_black"
+    },
+    "letter_w_black": {
+      "textures": "textures/items/letter_w_black"
+    },
+    "letter_x_black": {
+      "textures": "textures/items/letter_x_black"
+    },
+    "letter_y_black": {
+      "textures": "textures/items/letter_y_black"
+    },
+    "letter_z_black": {
+      "textures": "textures/items/letter_z_black"
+    }
+  }
+}

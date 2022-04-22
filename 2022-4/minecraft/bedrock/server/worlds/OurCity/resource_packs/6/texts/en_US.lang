@@ -1,0 +1,27 @@
+item.spawn_egg.entity.jdml:r32nismo.name=Nissan R32 GTR Nismo
+item.spawn_egg.entity.jdml:rx7fd.name=Mazda RX7FD
+item.spawn_egg.entity.jdml:nsx.name=Honda NSX (1st Gen)
+item.spawn_egg.entity.jdml:rx7fc.name=Mazda RX7FC
+item.spawn_egg.entity.jdml:ae86.name=Toyota AE86
+item.spawn_egg.entity.jdml:sil80.name=Nissan SilEighty
+item.spawn_egg.entity.jdml:sa80.name=Toyota Supra A80
+item.spawn_egg.entity.jdml:mr2.name=Toyota MR2 AW11
+item.spawn_egg.entity.jdml:mr2mod.name=Toyota MR2 AW11 (Rally)
+item.spawn_egg.entity.jdml:rx7fcmod.name=Mazda RX7FC (Mod)
+
+item.pmc:black.name=PaintMatic: Black
+item.pmc:blue.name=PaintMatic: Blue
+item.pmc:teal.name=PaintMatic: Teal
+item.pmc:red.name=PaintMatic: Red
+item.pmc:gray.name=PaintMatic: Gray
+item.pmc:silver.name=PaintMatic: Silver
+item.pmc:yellow.name=PaintMatic: Yellow
+item.pmc:white.name=PaintMatic: White
+
+item.pmc:spoon.name=PaintMatic: SpoonSports Livery
+item.pmc:castrol.name=PaintMatic: Castrol Livery
+item.pmc:hks57.name=PaintMatic: HKS #57 Livery
+item.pmc:n1911.name=PaintMatic: Group A Livery
+item.pmc:mlivery.name=PaintMatic: Mazda #61 Livery
+item.pmc:kotex.name=PaintMatic: Kote-X Livery
+

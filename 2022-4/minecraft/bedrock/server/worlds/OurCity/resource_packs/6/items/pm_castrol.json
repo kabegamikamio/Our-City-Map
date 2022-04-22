@@ -1,0 +1,24 @@
+{
+
+  "format_version": "1.10",
+
+  "minecraft:item": {
+
+    "description": {
+
+      "identifier": "pmc:castrol",
+
+      "category": "Items"
+
+    },
+
+    "components": {
+      "minecraft:icon": "pm_castrol",
+
+      "minecraft:render_offsets": "miscellaneous"
+
+    }
+
+  }
+
+}

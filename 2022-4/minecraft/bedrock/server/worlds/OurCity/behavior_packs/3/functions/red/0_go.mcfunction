@@ -1,0 +1,2 @@
+execute @e[type=tl:tl_ctrl,c=1] ^^^ execute @e[tag=light_set,r=32] ^^^ detect ^^-8^ wool 14 function signal_go
+execute @e[type=tl:tl_ctrl,c=1] ^^^ execute @e[tag=walker_set,r=32] ^^^ detect ^^-8^ wool 14 function walker_go

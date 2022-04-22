@@ -1,0 +1,17 @@
+{
+    "format_version": 1,
+    "header": {
+        "description": "Letters in Minecraft! Made by AngelPandaEarth.",
+        "name": "APG Letters [Behavior]",
+        "uuid": "543bd6b7-02cc-4b0c-bc7c-b80a30e789ee",
+        "version": [1, 0, 0]
+    },
+    "modules": [
+        {
+            "description": "Letters in Minecraft! Made by AngelPandaEarth.",
+            "type": "data",
+            "uuid": "7377c11d-af4b-4370-83b7-267cc73d64c7",
+            "version": [1, 0, 0]
+        }
+    ]
+}

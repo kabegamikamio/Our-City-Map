@@ -1,0 +1,1 @@
+tag @e[c=1,tag=light_set] add light_big

@@ -1,0 +1,56 @@
+{
+    "format_version": 1,
+    "header": {
+        "description": "§3Japanese traffic light §7and §3railroad crossing§7\nCreator : §b@salmon91204§f",
+        "name": "Traffic Light",
+        "uuid": "ee49dbfc-b7a6-4e03-a5cf-02e000babf8b",
+        "version": [
+            2,
+            0,
+            0
+        ],
+        "min_engine_version": [
+            1,
+            12,
+            0
+        ]
+    },
+    "modules": [
+        {
+            "description": "null",
+            "type": "resources",
+            "uuid": "5a72d561-9980-41f9-a0ff-430c46861de0",
+            "version": [
+                2,
+                0,
+                0
+            ]
+        }
+    ],
+    "dependencies": [
+        {
+            "uuid": "aa443c52-c7c3-4188-8661-93f4bdc50cb7",
+            "version": [
+                2,
+                0,
+                0
+            ]
+        },
+        {
+            "uuid": "9c49c7af-3ec4-41d0-863f-1435abba88d6",
+            "version": [
+                2,
+                0,
+                0
+            ]
+        },
+        {
+            "uuid": "75a6910b-4abe-4c8b-9351-23aea7f27ddf",
+            "version": [
+                2,
+                0,
+                0
+            ]
+        }
+    ]
+}

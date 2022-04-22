@@ -1,0 +1,37 @@
+{
+	"format_version": "1.8.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "jdml:ae86",
+			"materials": {
+				"default": "enderman"
+			},
+			"textures": {
+				"silver": "textures/entity/jdml/ae86/fujiwara",
+				"red": "textures/entity/jdml/ae86/red",
+				"white": "textures/entity/jdml/ae86/white"
+				
+			},
+			"geometry": {
+				"default": "geometry.jdmae86"
+			},
+			"render_controllers": [
+				"controller.render.jdm3"
+			],
+			"animations": {
+				"drive": "animation.jdml.drive",
+				"turning": "animation.jdml.turning",
+				"headlights": "animation.jdml.headlights"
+			},
+			"spawn_egg": {
+				"texture": "toyota",
+				"texture_index": 0
+			},
+			"animation_controllers": [
+				{
+					"general": "controller.animation.jdm2.general"
+				}
+			]
+		}
+	}
+}

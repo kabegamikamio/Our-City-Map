@@ -1,0 +1,17 @@
+accessibility.disableTTS=Text To Speech disabled
+accessibility.enableTTS=Text To Speech enabled
+
+action.hint.exit.unknown=Sneak to exit
+
+item.spawn_egg.entity.bm:cybertruck.name=Spawn CyberTruck
+entity.bm:cybertruck.name=CyberTruck
+action.hint.exit.bm:cybertruck=Sneak to exit
+
+
+
+
+
+
+
+
+

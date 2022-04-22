@@ -1,0 +1,27 @@
+{
+	"format_version": "1.8.0",
+	"render_controllers": {
+		"controller.render.jdm2": {
+			"arrays": {
+				"textures": {
+					"Array.variants": [
+						"Texture.black",
+						"Texture.silver",
+						"Texture.red",
+						"Texture.white",
+						"Texture.yellow"
+					]
+				}
+			},
+			"geometry": "Geometry.default",
+			"materials": [
+				{
+					"*": "Material.default"
+				}
+			],
+			"textures": [
+				"Array.variants[query.variant]"
+			]
+		}
+	}
+}

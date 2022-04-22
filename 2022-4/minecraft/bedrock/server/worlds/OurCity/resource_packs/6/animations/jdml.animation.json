@@ -1,0 +1,94 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.jdml.turning": {
+			"loop": true,
+			"bones": {
+				"fronttire1": {
+					"rotation": [0, "Math.max(-26, Math.min(26,query.yaw_speed * 0.5))", 0]
+				},
+				"fronttire2": {
+					"rotation": [0, "Math.max(-26, Math.min(26,query.yaw_speed * 0.5))", 0]
+				},
+				"steeringwheel": {
+					"rotation": [0, 0, "Math.max(-30, Math.min(30,query.yaw_speed * 0.5))*-1"]
+				}
+			}
+		},
+		"animation.jdml.drive": {
+			"loop": true,
+			"animation_length": 0.1667,
+			"bones": {
+				"fronttire1": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.1667": [180, 0, 0]
+					}
+				},
+				"fronttire2": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.1667": [180, 0, 0]
+					}
+				},
+				"backtire1": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.1667": [180, 0, 0]
+					}
+				},
+				"backtire2": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.1667": [180, 0, 0]
+					}
+				},
+				"pecutan": {
+					"position": [0, -1, 0]
+				}
+			}
+		},
+		"animation.r32n.door": {
+			"loop": false,
+			"bones": {
+				"leftdoor": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.48": [0, 45, 0],
+						"0.96": [0, 0, 0]
+					}
+				}
+			}
+		},
+		"animation.r32n.door2": {
+			"loop": false,
+			"bones": {
+				"rightdoor": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.48": [0, -45, 0],
+						"0.96": [0, 0, 0]
+					}
+				}
+			}
+		},
+		"animation.jdml.headlights": {
+			"loop": true,
+			"bones": {
+				"popups": {
+						"rotation": [0, 0, 0],
+						"position": [0, 4, 0]
+					}
+				}
+			},
+			"animation.jdml.headlights2": {
+			"loop": true,
+			"bones": {
+				"popups": {
+						"rotation": [0, 0, 0],
+						"position": [0, 3, 0]
+					}
+				}
+			}
+		}
+	}

@@ -1,0 +1,14 @@
+{
+  "mob.cybertruck.drive": {
+      "category": "block",
+    "sounds": [
+      "sounds/vehicles/edrive"
+    ]
+  },
+  "mob.vehicle.hit": {
+      "category": "block",
+    "sounds": [
+      "sounds/vehicles/hit"
+    ]
+  }
+}

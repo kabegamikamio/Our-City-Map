@@ -1,0 +1,20 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "ap:letter_v_black",
+      "materials": { "default": "entity" },
+      "textures": {
+        "default": "textures/entity/black"
+      },
+      "geometry": {
+        "default": "geometry.letter_v"
+      },
+      "render_controllers": [ "controller.render.letter_v" ],
+      "spawn_egg": {
+        "texture": "letter_v_black",
+        "texture_index": 0
+      }
+    }
+  }
+}

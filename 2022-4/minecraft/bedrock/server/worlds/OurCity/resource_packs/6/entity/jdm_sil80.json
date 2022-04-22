@@ -1,0 +1,37 @@
+{
+	"format_version": "1.8.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "jdml:sil80",
+			"materials": {
+				"default": "enderman"
+			},
+			"textures": {
+				"black": "textures/entity/jdml/sil80/black",
+				"silver": "textures/entity/jdml/sil80/kotexlivery",
+				"red": "textures/entity/jdml/sil80/red",
+				"white": "textures/entity/jdml/sil80/white",
+				"blue": "textures/entity/jdml/sil80/iblue"
+			},
+			"geometry": {
+				"default": "geometry.jdmsil80"
+			},
+			"render_controllers": [
+				"controller.render.jdm5"
+			],
+			"animations": {
+				"drive": "animation.jdml.drive",
+				"turning": "animation.jdml.turning"
+			},
+			"spawn_egg": {
+				"texture": "nissan",
+				"texture_index": 0
+			},
+			"animation_controllers": [
+				{
+					"general": "controller.animation.jdml.general"
+				}
+			]
+		}
+	}
+}

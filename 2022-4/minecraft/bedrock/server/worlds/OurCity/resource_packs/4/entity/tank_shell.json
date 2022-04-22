@@ -1,0 +1,41 @@
+/*
+
+	Hello, dear fellow reverse engineers :D
+
+	You can tear this addon apart 
+	and rip the parts off 
+	and make it your own, 
+	please just make sure 
+	you give me the proper credits.
+	Thank you.
+
+	- MyoHtet @bmheades
+
+*/
+
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "bm:tank_shell",
+      "materials": {
+        "default": "arrow"
+      },
+      "textures": {
+        "default": "textures/entities/tank_shell"
+      },
+      "geometry": {
+        "default": "geometry.bm.tank_shell"
+      },
+      "animations": {
+        "move": "animation.arrow.move"
+      },
+      "scripts": {
+        "animate": [
+          "move"
+        ]
+      },
+      "render_controllers": [ "controller.render.vehicle" ]
+    }
+  }
+}

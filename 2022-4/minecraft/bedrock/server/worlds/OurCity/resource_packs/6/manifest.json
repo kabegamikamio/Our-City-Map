@@ -1,0 +1,29 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "§5§lJDM §bLegacy (R)",
+		"description": "Developed / made by ashminggu. Specially made for MCPEDL.",
+		"uuid": "bae35d62-9ac8-4b79-ba5b-b44f59fad380",
+		"version": [
+			1,
+			0,
+			1
+		],
+		"min_engine_version": [
+			1,
+			13,
+			0
+		]
+	},
+	"modules": [
+		{
+			"type": "resources",
+			"uuid": "3948f1fc-3f67-43f7-b112-c794710d6dc3",
+			"version": [
+				1,
+				0,
+				1
+			]
+		}
+	]
+}

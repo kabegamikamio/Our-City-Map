@@ -1,0 +1,20 @@
+{
+	"format_version": 1,
+	"header": {
+		"description": "Made by MyoHtet\n@bmheades",
+		"name": "CYBERTRUCK RP",
+		"uuid": "abef1ccf-a5e9-47a7-a42e-616cd7d78c96",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 0, 0]
+	},
+	"modules": [{
+		"description": "Made by MyoHtet\n@bmheades",
+		"type": "resources",
+		"uuid": "20c94dc2-f285-4205-a799-d44f427c0765",
+		"version": [1, 0, 0]
+	}],
+	"dependencies": [{
+		"uuid": "5fd720fb-4da3-4301-be36-08b2770e7c54",
+		"version": [1, 0, 0]
+	}]
+}

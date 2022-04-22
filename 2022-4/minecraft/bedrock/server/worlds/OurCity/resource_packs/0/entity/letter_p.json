@@ -1,0 +1,20 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "ap:letter_p",
+      "materials": { "default": "entity" },
+      "textures": {
+        "default": "textures/entity/white"
+      },
+      "geometry": {
+        "default": "geometry.letter_p"
+      },
+      "render_controllers": [ "controller.render.letter_p" ],
+      "spawn_egg": {
+        "texture": "letter_p",
+        "texture_index": 0
+      }
+    }
+  }
+}

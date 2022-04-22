@@ -1,0 +1,19 @@
+{
+	"format_version": 1,
+	"header": {
+		"description": "Made by MyoHtet\n@bmheades",
+		"name": "CYBERTRUCK BP",
+		"uuid": "5fd720fb-4da3-4301-be36-08b2770e7c54",
+		"version": [1, 0, 0]
+	},
+	"modules": [{
+		"description": "Made by MyoHtet\n@bmheades",
+		"type": "data",
+		"uuid": "5da4e767-8c53-44f9-9a7a-4670cb03f90b",
+		"version": [1, 0, 0]
+	}],
+	"dependencies": [{
+		"uuid": "abef1ccf-a5e9-47a7-a42e-616cd7d78c96",
+		"version": [1, 0, 0]
+	}]
+}

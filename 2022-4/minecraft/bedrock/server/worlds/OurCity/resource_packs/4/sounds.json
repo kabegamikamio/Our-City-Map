@@ -1,0 +1,47 @@
+/*
+
+	Hello, dear fellow reverse engineers :D
+
+	You can tear this addon apart 
+	and rip the parts off 
+	and make it your own, 
+	please just make sure 
+	you give me the proper credits.
+	Thank you.
+
+	- MyoHtet @bmheades
+
+*/
+
+{
+	"entity_sounds": {
+		"entities": {
+			"bm:m1a2": {
+				"volume": 1.0,
+				"pitch": [0.8, 1.2],
+				"events": {
+					"step" : {
+						"sound" : "tank.drive",
+						"pitch" : 1.0,						
+						"volume" : 1
+					},
+					"hurt": {
+						"sound": "tank.hit",
+						"volume": 0.9,
+						"pitch": [0.6, 0.7]
+					},
+					 "eat" : {
+						"pitch" : 1,
+						"sound" : "random.anvil_use",
+						"volume" : 1
+					},
+					"death": {
+						"sound": "vehicle.explode",
+						"volume": 3,
+						"pitch": [1]
+					}
+				}
+			}
+		}
+	}
+}

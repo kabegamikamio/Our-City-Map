@@ -1,0 +1,147 @@
+{
+	"entity_sounds": {
+		"entities": {
+			"jdml:r32nismo": {
+				"volume": 1,
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"events": {
+					"step": {
+						"sound": "jdml.r32.drive",
+						"volume": 0.15,
+						"pitch": 1.1
+					}
+				}
+			},
+			"jdml:sa80": {
+				"volume": 1,
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"events": {
+					"step": {
+						"sound": "jdml.r32.drive",
+						"volume": 0.15,
+						"pitch": 1.1
+					}
+				}
+			},
+			"jdml:sil80": {
+				"volume": 1,
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"events": {
+					"step": {
+						"sound": "jdml.r32.drive",
+						"volume": 0.15,
+						"pitch": 1.1
+					}
+				}
+			},
+			"jdml:ae86": {
+				"volume": 1,
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"events": {
+					"step": {
+						"sound": "jdml.ae86.drive",
+						"volume": 0.15,
+						"pitch": 1.1
+					}
+				}
+			},
+			"jdml:nsx": {
+				"volume": 1,
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"events": {
+					"step": {
+						"sound": "jdml.nsx.drive",
+						"volume": 0.15,
+						"pitch": 1.1
+					}
+				}
+			},
+			"jdml:mr2": {
+				"volume": 1,
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"events": {
+					"step": {
+						"sound": "jdml.mr2.drive",
+						"volume": 0.15,
+						"pitch": 1.1
+					}
+				}
+			},
+			"jdml:mr2mod": {
+				"volume": 1,
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"events": {
+					"step": {
+						"sound": "jdml.mr2.drive",
+						"volume": 0.15,
+						"pitch": 1.1
+					}
+				}
+			},
+			"jdml:rx7fd": {
+				"volume": 1,
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"events": {
+					"step": {
+						"sound": "jdml.rx7.drive",
+						"volume": 0.15,
+						"pitch": 1.1
+					}
+				}
+			},
+			"jdml:rx7fc": {
+				"volume": 1,
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"events": {
+					"step": {
+						"sound": "jdml.rx7.drive",
+						"volume": 0.15,
+						"pitch": 1.1
+					}
+				}
+			},
+			"jdml:rx7fcmod": {
+				"volume": 1,
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"events": {
+					"step": {
+						"sound": "jdml.rx7.drive",
+						"volume": 0.15,
+						"pitch": 1.1
+					}
+				}
+			}
+			
+		}
+	}
+}

@@ -1,0 +1,32 @@
+{
+	"jdml.r32.drive": {
+		"category": "neutral",
+		"sounds": [
+		  "sounds/jdml/r32"
+		]
+	},
+	"jdml.ae86.drive": {
+		"category": "neutral",
+		"sounds": [
+		  "sounds/jdml/ae86"
+		]
+	},
+	"jdml.nsx.drive": {
+		"category": "neutral",
+		"sounds": [
+		  "sounds/jdml/nsx"
+		]
+	},
+	"jdml.rx7.drive": {
+		"category": "neutral",
+		"sounds": [
+		  "sounds/jdml/rx7"
+		]
+	},
+	"jdml.mr2.drive": {
+		"category": "neutral",
+		"sounds": [
+		  "sounds/jdml/aw11"
+		]
+	}
+}

@@ -1,0 +1,17 @@
+
+
+item.spawn_egg.entity.bm:m1a2.name=Spawn M1A2
+entity.bm:m1a2.name=M1A2
+action.hint.exit.bm:m1a2=Jump or sneak to leave
+
+entity.bm:machine_gun_bullet.name=Bullet
+
+entity.bm:tank_shell.name=Tank Shell
+
+
+
+
+
+
+
+

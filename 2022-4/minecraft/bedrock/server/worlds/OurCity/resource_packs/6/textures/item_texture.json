@@ -1,0 +1,96 @@
+{
+	"resource_pack_name": "bridgeRP",
+	"texture_name": "atlas.items",
+	"texture_data": {
+		"nissan": {
+			"textures": [
+				"textures/items/logos/nissan"
+			]
+		},
+		"honda": {
+			"textures": [
+				"textures/items/logos/honda"
+			]
+		},
+		"toyota": {
+			"textures": [
+				"textures/items/logos/toyota"
+			]
+		},
+		"mazda": {
+			"textures": [
+				"textures/items/logos/mazda"
+			]
+		},
+		"pm_hks57": {
+			"textures": [
+				"textures/items/colors/pm_hks57"
+			]
+		},
+		"pm_1911": {
+			"textures": [
+				"textures/items/colors/pm_groupa"
+			]
+		},
+		"pm_kotex": {
+			"textures": [
+				"textures/items/colors/pm_kotex"
+			]
+		},
+		"pm_castrol": {
+			"textures": [
+				"textures/items/colors/pm_castrol"
+			]
+		},
+		"pm_mlivery": {
+			"textures": [
+				"textures/items/colors/pm_mlivery"
+			]
+		},
+		"pm_black": {
+			"textures": [
+				"textures/items/colors/pm_black"
+			]
+		},
+		"pm_white": {
+			"textures": [
+				"textures/items/colors/pm_white"
+			]
+		},
+		"pm_spoon": {
+			"textures": [
+				"textures/items/colors/pm_spoon"
+			]
+		},
+		"pm_blue": {
+			"textures": [
+				"textures/items/colors/pm_blue"
+			]
+		},
+		"pm_gray": {
+			"textures": [
+				"textures/items/colors/pm_gray"
+			]
+		},
+		"pm_red": {
+			"textures": [
+				"textures/items/colors/pm_red"
+			]
+		},
+		"pm_silver": {
+			"textures": [
+				"textures/items/colors/pm_silver"
+			]
+		},
+		"pm_teal": {
+			"textures": [
+				"textures/items/colors/pm_teal"
+			]
+		},
+		"pm_yellow": {
+			"textures": [
+				"textures/items/colors/pm_yellow"
+			]
+		}
+	}
+}

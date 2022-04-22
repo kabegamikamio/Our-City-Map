@@ -1,0 +1,20 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "ap:letter_b",
+      "materials": { "default": "entity" },
+      "textures": {
+        "default": "textures/entity/white"
+      },
+      "geometry": {
+        "default": "geometry.letter_b"
+      },
+      "render_controllers": [ "controller.render.letter_b" ],
+      "spawn_egg": {
+        "texture": "letter_b",
+        "texture_index": 0
+      }
+    }
+  }
+}

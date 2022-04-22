@@ -1,0 +1,20 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "ap:letter_f",
+      "materials": { "default": "entity" },
+      "textures": {
+        "default": "textures/entity/white"
+      },
+      "geometry": {
+        "default": "geometry.letter_f"
+      },
+      "render_controllers": [ "controller.render.letter_f" ],
+      "spawn_egg": {
+        "texture": "letter_f",
+        "texture_index": 0
+      }
+    }
+  }
+}

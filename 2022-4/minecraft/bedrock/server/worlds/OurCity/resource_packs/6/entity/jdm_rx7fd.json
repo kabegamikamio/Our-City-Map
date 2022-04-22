@@ -1,0 +1,39 @@
+{
+	"format_version": "1.8.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "jdml:rx7fd",
+			"materials": {
+				"default": "enderman"
+			},
+			"textures": {
+				"black": "textures/entity/jdml/rx7fd/black",
+				"silver": "textures/entity/jdml/rx7fd/silver",
+				"red": "textures/entity/jdml/rx7fd/red",
+				"white": "textures/entity/jdml/rx7fd/mlivery",
+				"yellow": "textures/entity/jdml/rx7fd/yellow"
+				
+			},
+			"geometry": {
+				"default": "geometry.jdmrx7fd"
+			},
+			"render_controllers": [
+				"controller.render.jdm2"
+			],
+			"animations": {
+				"drive": "animation.jdml.drive",
+				"turning": "animation.jdml.turning",
+				"headlights": "animation.jdml.headlights"
+			},
+			"spawn_egg": {
+				"texture": "mazda",
+				"texture_index": 0
+			},
+			"animation_controllers": [
+				{
+					"general": "controller.animation.jdm2.general"
+				}
+			]
+		}
+	}
+}

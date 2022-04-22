@@ -1,0 +1,37 @@
+{
+	"format_version": "1.8.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "jdml:mr2",
+			"materials": {
+				"default": "enderman"
+			},
+			"textures": {
+				"black": "textures/entity/jdml/mr2/black",
+				"silver": "textures/entity/jdml/mr2/gray",
+				"white": "textures/entity/jdml/mr2/white",
+				"blue": "textures/entity/jdml/mr2/teal"
+			},
+			"geometry": {
+				"default": "geometry.jdmmr2"
+			},
+			"render_controllers": [
+				"controller.render.jdm4"
+			],
+			"animations": {
+				"drive": "animation.jdml.drive",
+				"turning": "animation.jdml.turning",
+				"headlights": "animation.jdml.headlights"
+			},
+			"spawn_egg": {
+				"texture": "toyota",
+				"texture_index": 0
+			},
+			"animation_controllers": [
+				{
+					"general": "controller.animation.jdm2.general"
+				}
+			]
+		}
+	}
+}

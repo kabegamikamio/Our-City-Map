@@ -1,0 +1,20 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "ap:letter_z",
+      "materials": { "default": "entity" },
+      "textures": {
+        "default": "textures/entity/white"
+      },
+      "geometry": {
+        "default": "geometry.letter_z"
+      },
+      "render_controllers": [ "controller.render.letter_z" ],
+      "spawn_egg": {
+        "texture": "letter_z",
+        "texture_index": 0
+      }
+    }
+  }
+}

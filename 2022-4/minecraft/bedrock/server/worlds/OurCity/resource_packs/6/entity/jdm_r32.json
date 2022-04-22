@@ -1,0 +1,39 @@
+{
+	"format_version": "1.8.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "jdml:r32nismo",
+			"materials": {
+				"default": "enderman"
+			},
+			"textures": {
+				"white": "textures/entity/jdml/r32n/white",
+				"silver": "textures/entity/jdml/r32n/silver",
+				"red": "textures/entity/jdml/r32n/groupa",
+				"black": "textures/entity/jdml/r32n/black"
+				
+			},
+			"geometry": {
+				"default": "geometry.r32nismo"
+			},
+			"render_controllers": [
+				"controller.render.jdm1"
+			],
+			"animations": {
+				"drive": "animation.jdml.drive",
+				"turning": "animation.jdml.turning",
+				"door": "animation.r32n.door",
+				"door2": "animation.r32n.door2"
+			},
+			"spawn_egg": {
+				"texture": "nissan",
+				"texture_index": 0
+			},
+			"animation_controllers": [
+				{
+					"general": "controller.animation.r32n.general"
+				}
+			]
+		}
+	}
+}
